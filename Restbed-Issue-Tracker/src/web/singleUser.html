@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:300" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link href="style/main-style.css" rel="stylesheet">
+  <script src="js/singleUser.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
+  <title>Issue Tracker Express</title>
+</head>
+
+<body>
+  <div class="header">
+    <div class="logo-bar">
+      <div class="itx-logo"></div>
+      <div class="page-title">Issue Tracker Express</div>
+    </div>
+    <div class="menu-bar">
+        <div class="menu-options">
+          <a href="index.html" class="menu-option">Home</a>
+          <a href="issues.html" class="menu-option">Issues</a>
+          <a href="users.html" class="menu-option">Users</a>
+		</div>
+    </div>
+  </div>
+
+  <div class="page-body">
+    <div class="sidenav">
+		<p>User Options</p>
+		<a href="javascript:void(0);" NAME="Add A User  title="findUser" onClick=window.open("addUser.html","_self");>Add a User</a><br>
+		<a href="javascript:void(0);" NAME="Add A User  title="findUser" onClick="editUser();">Edit User</a><br>
+		<a href="javascript:void(0);" onClick="deleteUser();" NAME="Delete User"  title="deleteUser">Delete User</a><br>
+	</div>
+      <h1>View User</h1>
+      <h3 id="name"></h3>
+      <img id="picture" src="images/-1.jpg" height="100">
+      <h3>About Me</h3>
+      <p id="blurb"></p>
+  </div>
+</body>
+</html>

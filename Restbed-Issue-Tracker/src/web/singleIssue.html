@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:300" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link href="style/main-style.css" rel="stylesheet">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
+  <title>Issue Tracker Express</title>
+</head>
+
+<body>
+  <div class="header">
+    <div class="logo-bar">
+      <div class="itx-logo"></div>
+      <div class="page-title">Issue Tracker Express</div>
+    </div>
+    <div class="menu-bar">
+        <div class="menu-options">
+          <a href="index.html" class="menu-option">Home</a>
+          <a href="issues.html" class="menu-option">Issues</a>
+          <a href="users.html" class="menu-option">Users</a>
+		</div>
+    </div>
+  </div>
+
+  <div class="page-body">
+    <div class="sidenav">
+		<p>Issue Options</p>
+		<a href="javascript:void(0);" NAME="Add An Issue"  title="findIssue" onClick=window.open("addIssue.html","_self");>Add an Issue</a><br>
+		<a href="javascript:void(0);" onClick="editIssue();" NAME="EditIssue"  title="editIssue">Edit Issue</a><br>
+		<a href="javascript:void(0);" onClick="deleteIssue();" NAME="Delete"  title="deleteIssue">Delete Issue</a>
+		<a href="javascript:void(0);" onClick="addComment();" NAME="Add Comment"  title="addComment">Comment</a><br>
+	</div>
+      <h1>Issue</h1>
+      <h3 id="title"></h3>
+      <p id="description"></p>
+      <p id="status"></p>
+      <p id="assignee"></p>
+      <p id="creator"></p>
+      <p id="priority"></p>
+      <p id="tags"></p>
+  </div>
+  <div class="comments">
+  <h3>Comments</h3>
+  <table id="comment_table">
+  <tr>
+    <th>User</th>
+    <th>Text</th>
+  </tr>
+
+  </table>
+  <br></br>
+</body>
+<script src="js/singleIssue.js"></script>
+</html>
