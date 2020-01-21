@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="THE ORB" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/THE ORB" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/THE ORB" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/CombatPuzzle.h" />
+		<Unit filename="include/DicePuzzle.h" />
+		<Unit filename="include/EdgeVillage.h" />
+		<Unit filename="include/Exceptions.h" />
+		<Unit filename="include/Game.h" />
+		<Unit filename="include/GarPostRace.h" />
+		<Unit filename="include/GarRace.h" />
+		<Unit filename="include/GarfieldsLair.h" />
+		<Unit filename="include/Hothe.h" />
+		<Unit filename="include/InnerCity.h" />
+		<Unit filename="include/Inventory.h" />
+		<Unit filename="include/IslandOfFools.h" />
+		<Unit filename="include/Locations.h" />
+		<Unit filename="include/Naboot.h" />
+		<Unit filename="include/Npc.h" />
+		<Unit filename="include/OuterCity.h" />
+		<Unit filename="include/Outpost.h" />
+		<Unit filename="include/Player.h" />
+		<Unit filename="include/RacingPuzzle.h" />
+		<Unit filename="include/Slums.h" />
+		<Unit filename="include/SuperMarket.h" />
+		<Unit filename="include/Tatooined.h" />
+		<Unit filename="include/Tavern.h" />
+		<Unit filename="include/TheOrb.h" />
+		<Unit filename="include/VillageSquare.h" />
+		<Unit filename="src/CombatPuzzle.cpp" />
+		<Unit filename="src/DicePuzzle.cpp" />
+		<Unit filename="src/EdgeVillage.cpp" />
+		<Unit filename="src/Game.cpp" />
+		<Unit filename="src/GarPostRace.cpp" />
+		<Unit filename="src/GarRace.cpp" />
+		<Unit filename="src/GarfieldsLair.cpp" />
+		<Unit filename="src/Hothe.cpp" />
+		<Unit filename="src/InnerCity.cpp" />
+		<Unit filename="src/Inventory.cpp" />
+		<Unit filename="src/IslandOfFools.cpp" />
+		<Unit filename="src/Locations.cpp" />
+		<Unit filename="src/Naboot.cpp" />
+		<Unit filename="src/Npc.cpp" />
+		<Unit filename="src/OuterCity.cpp" />
+		<Unit filename="src/Outpost.cpp" />
+		<Unit filename="src/Player.cpp" />
+		<Unit filename="src/RacingPuzzle.cpp" />
+		<Unit filename="src/Slums.cpp" />
+		<Unit filename="src/SuperMarket.cpp" />
+		<Unit filename="src/Tatooined.cpp" />
+		<Unit filename="src/Tavern.cpp" />
+		<Unit filename="src/TheOrb.cpp" />
+		<Unit filename="src/VillageSquare.cpp" />
+		<Unit filename="src/game/main.cpp">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="test/GarPostRace.cpp">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="test/TestCombatPuzzle.cpp" />
+		<Unit filename="test/TestDicePuzzle.cpp" />
+		<Unit filename="test/TestEdgeVillage.cpp" />
+		<Unit filename="test/TestGame.cpp" />
+		<Unit filename="test/TestGarRace.cpp" />
+		<Unit filename="test/TestGarfieldsLair.cpp" />
+		<Unit filename="test/TestHothe.cpp" />
+		<Unit filename="test/TestInnerCity.cpp" />
+		<Unit filename="test/TestInventory.cpp" />
+		<Unit filename="test/TestIslandOfFools.cpp" />
+		<Unit filename="test/TestNaboot.cpp" />
+		<Unit filename="test/TestNpc.cpp" />
+		<Unit filename="test/TestOuterCity.cpp" />
+		<Unit filename="test/TestOutpost.cpp" />
+		<Unit filename="test/TestPlayer.cpp" />
+		<Unit filename="test/TestSlums.cpp" />
+		<Unit filename="test/TestSuperMarket.cpp" />
+		<Unit filename="test/TestTatooined.cpp" />
+		<Unit filename="test/TestTavern.cpp" />
+		<Unit filename="test/TestTheOrb.cpp" />
+		<Unit filename="test/TestTimedPuzzle.cpp" />
+		<Unit filename="test/TestVillageSquare.cpp" />
+		<Unit filename="test/main.cpp">
+			<Option target="Debug" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
